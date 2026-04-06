@@ -51,20 +51,19 @@ function AppContent () {
       >
         <h1 className='text-5xl font-bold mb-4'>React Props explained</h1>
         <p className='text-lg text-gray-300 mb-8'>A comprehensive guide to understanding props in React.</p>
-        <p>Testing the basic functionality for git.</p>
       </header>
       <div className='space-y-8'>
         <div id="basic" className='scroll-mt-200'>
           <BasicProps />
         </div>
         <div id="basic" className='scroll-mt-200'>
-          <RefProps />
-        </div>
-        <div id="basic" className='scroll-mt-200'>
           <ChildrenProps />
         </div>
         <div id="basic" className='scroll-mt-200'>
           <Complexprops />
+        </div>
+        <div id="basic" className='scroll-mt-200'>
+          <RefProps />
         </div>
         <div id="basic" className='scroll-mt-200'>
           <ThemeToggler />
