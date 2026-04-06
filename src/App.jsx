@@ -4,7 +4,7 @@ import BasicProps from './components/BasicProps.jsx'
 import RefProps from './components/RefProps.jsx'
 import ChildrenProps from './components/ChildrenProps.jsx'
 import Complexprops from './components/Complexprops.jsx'
-import ThemeToggler from './components/ThemeToggler.jsx'
+import ThemeToggler, {Themeprovider} from './components/ThemeToggler.jsx'
 
 function Navigation () {
   const isdark = true
@@ -84,7 +84,9 @@ function AppContent () {
 
 function App() {
   return (
-    <AppContent />
+    <Themeprovider>
+      <AppContent />
+    </Themeprovider>
    );
 }
 
